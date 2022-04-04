@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html class="cufon-active cufon-ready"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>.:: Contact Me ::.</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen">
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="ie.css" media="screen">
+		<![endif]-->
+        <link rel="icon" type="image/x-icon" href="style/images/hpapa.ico">
+        
+		<link rel="stylesheet" type="text/css" href="style/lightbox.css" media="screen">
+		<script type="text/javascript" src="style/jquery_002.js"></script>
+		<script type="text/javascript" src="style/jquery.js"></script>
+		<script type="text/javascript" src="style/cufon-yui.js"></script><style type="text/css">
+		cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}body,td,th {
+	font-family: "Comic Sans MS", cursive;
+}
+        </style>
+		<script type="text/javascript" src="style/Desyrel_400.js"></script>
+		
+		<!-- Cufon text replacement -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				Cufon.replace('#about .right ul li');
+				Cufon.replace('h2', { textShadow: '0 2px rgba(0, 0, 0, 0.15)' });
+				Cufon.replace('#social .right a', {hover:true});
+				Cufon.replace('#work .left h3', {hover:true});
+				Cufon.replace('h3', { textShadow: '0 2px rgba(0, 0, 0, 0.15)' });
+				Cufon.replace('#contactinfo'), {hover:true};
+			});
+		</script>
+		
+		<!-- jQuery lightbox -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#work .right a').lightBox();
+			});
+		</script>
+		
+		<!-- Navigation and Content effects -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.page').hide();
+				$('#navigation li:first').addClass('active').show();
+				$('.page:first').show();
+				
+				$('#navigation li').click(function(){
+					$('#navigation li').removeClass('active');
+					$(this).addClass('active');
+					
+					$('.page').hide();
+					var activeTab = $(this).find('a').attr('href');
+					$(activeTab).fadeIn('slow');
+					return false;
+				});
+			});
+		</script></style>
+
+	</head>
+	<body>
+<div id="pagewrap">
+			
+			<!-- Site header and navigation -->
+		  <div id="header">
+		  <ul id="navigation">
+					<li class="active"><a class="about" href="index.html"><img src="style/images/icon-about.png" alt="About"></a></li>
+					<li><a class="work" href="work.html">work</a></li>
+					<li><a class="social" href="social.html"><img src="style/images/icon-social.png" alt="Social"></a></li>
+					<li><a class="contact" href="contact.html"><img src="style/images/icon-contact.png" alt="Contact" border="0"></a></li>
+				</ul>
+			</div> 
+			
+<!-- Site content -->
+
+			<div id="content">
+			<div id="contact" class="page">
+           <p>
+             <!-- left  contents -->			
+             
+&nbsp;<br>
+           </p>
+           <div class="left">       
+             <!-- Form starts here --> 
+             
+             <form name="contactform" method="post" action="contact.php">
+ 
+
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="first_name"> <br>
+    &nbsp;&nbsp;&nbsp;Drop me a note...<br>
+    &nbsp;&nbsp;
+    Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+   &nbsp;&nbsp;
+   <input  type="text" name="first_name">
+  </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">&nbsp;&nbsp;&nbsp;E - mail *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  &nbsp;&nbsp;
+  <input  type="text" name="email" >
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="comments">&nbsp;&nbsp;&nbsp;Message *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  &nbsp;&nbsp;
+    <textarea  name="comments"  rows="6"></textarea>
+    &nbsp;
+     <table width="200" border="0">
+       <tr>
+      <td width="61">&nbsp;</td>
+      <td width="129"><input class="send" type="submit" value="Submit"></td>
+       </tr>
+</table>
+  <p>&nbsp;</p></td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td colspan="2" style="text-align:center"><p>&nbsp;&nbsp;&nbsp;
+  </p>
+  </td>
+ 
+</tr>
+ 
+</table>
+ 
+</form>
+ 
+ 
+</div>
+			<table width="540" border="0">
+			  <tr>
+			    <td width="534"><p>&nbsp;</p>
+			      <p>&nbsp;</p>
+		        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="style/images/contactme.png" width="500" height="130" border="0" usemap="#Map"></p></td>
+		      </tr>
+			  </table>
+            </div>		
+			
+			<div style="display: none;" id="work" class="page">
+<div class="left">
+						<img src="style/images/image-feature.jpg" alt="Featured project">
+						<h3><a href="#"><cufon style="width: 91px; height: 22px;" alt="Featured " class="cufon cufon-canvas"><canvas style="width: 111px; height: 28px; top: 0px; left: -2px;" height="28" width="111"></canvas><cufontext>Featured </cufontext></cufon><cufon style="width: 61px; height: 22px;" alt="Project" class="cufon cufon-canvas"><canvas style="width: 80px; height: 28px; top: 0px; left: -2px;" height="28" width="80"></canvas><cufontext>Project</cufontext></cufon></a></h3>
+						<p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit...</p>
+			  </div>
+					<div class="right">
+						<p>Labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+consequat.</p>
+						<h3><cufon style="width: 55px; height: 22px;" alt="Print " class="cufon cufon-canvas"><canvas style="width: 76px; height: 28px; top: 0px; left: -2px;" height="28" width="76"></canvas><cufontext>Print </cufontext></cufon><cufon style="width: 67px; height: 22px;" alt="Design:" class="cufon cufon-canvas"><canvas style="width: 91px; height: 28px; top: 0px; left: -2px;" height="28" width="91"></canvas><cufontext>Design:</cufontext></cufon></h3>
+						<ul id="work01">
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image01.jpg"><img src="style/images/logo01.jpg" alt="logo01"></a></li>
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image02.jpg"><img src="style/images/logo02.jpg" alt="logo02"></a></li>
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image03.jpg"><img src="style/images/logo03.jpg" alt="logo03"></a></li>
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image04.jpg"><img src="style/images/logo04.jpg" alt="logo04"></a></li>
+						</ul>
+						<h3><cufon style="width: 46px; height: 22px;" alt="Web " class="cufon cufon-canvas"><canvas style="width: 67px; height: 28px; top: 0px; left: -2px;" height="28" width="67"></canvas><cufontext>Web </cufontext></cufon><cufon style="width: 67px; height: 22px;" alt="Design:" class="cufon cufon-canvas"><canvas style="width: 91px; height: 28px; top: 0px; left: -2px;" height="28" width="91"></canvas><cufontext>Design:</cufontext></cufon></h3>
+						<ul id="work02">
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image05.jpg"><img src="style/images/web01.jpg" alt="web01"></a></li>
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image06.jpg"><img src="style/images/web02.jpg" alt="web02"></a></li>
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image07.jpg"><img src="style/images/web03.jpg" alt="web03"></a></li>
+							<li><a href="http://www.bogawat.com/themes/cardex/images/image08.jpg"><img src="style/images/web04.jpg" alt="web04"></a></li>
+						</ul>
+					</div>
+			  </div>
+	
+<div style="display: none;" id="social" class="page">
+					<div class="left">
+						<p class="tweet-text">Blanditiis praesentium deleniti atque corrupti quos dolores et quas molestias <a href="http://www.google.com/mail">http://www.google.com/mail</a>.</p>
+						<p class="tweet-meta"><a href="#">- 12 hours ago</a></p>
+					</div>
+					<div class="right">
+						<ul>
+							<li class="facebook"><a href="#"><img src="style/images/icon-facebook.png" alt="facebook"><cufon style="width: 8px; height: 23px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 30px; height: 27px; top: 0px; left: -2px;" height="27" width="30"></canvas><cufontext> </cufontext></cufon><cufon style="width: 80px; height: 23px;" alt="facebook" class="cufon cufon-canvas"><canvas style="width: 97px; height: 27px; top: 0px; left: -2px;" height="27" width="97"></canvas><cufontext>facebook</cufontext></cufon></a></li>
+							<li class="flickr"><a href="#"><img src="style/images/icon-flickr.png" alt="flickr"><cufon style="width: 8px; height: 23px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 30px; height: 27px; top: 0px; left: -2px;" height="27" width="30"></canvas><cufontext> </cufontext></cufon><cufon style="width: 57px; height: 23px;" alt="flickr" class="cufon cufon-canvas"><canvas style="width: 75px; height: 27px; top: 0px; left: -2px;" height="27" width="75"></canvas><cufontext>flickr</cufontext></cufon></a></li>
+							<li class="delicious"><a href="#"><img src="style/images/icon-delicious.png" alt="delicious"><cufon style="width: 8px; height: 23px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 30px; height: 27px; top: 0px; left: -2px;" height="27" width="30"></canvas><cufontext> </cufontext></cufon><cufon style="width: 87px; height: 23px;" alt="delicious" class="cufon cufon-canvas"><canvas style="width: 107px; height: 27px; top: 0px; left: -2px;" height="27" width="107"></canvas><cufontext>delicious</cufontext></cufon></a></li>
+							<li class="lastfm"><a href="#"><img src="style/images/icon-lastfm.png" alt="last.fm"><cufon style="width: 8px; height: 23px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 30px; height: 27px; top: 0px; left: -2px;" height="27" width="30"></canvas><cufontext> </cufontext></cufon><cufon style="width: 72px; height: 23px;" alt="last.fm" class="cufon cufon-canvas"><canvas style="width: 78px; height: 27px; top: 0px; left: -2px;" height="27" width="78"></canvas><cufontext>last.fm</cufontext></cufon></a></li>
+							<li class="stumbleupon"><a href="#"><img src="style/images/icon-stumbleupon.png" alt="Stumbleupon"><cufon style="width: 8px; height: 23px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 30px; height: 27px; top: 0px; left: -2px;" height="27" width="30"></canvas><cufontext> </cufontext></cufon><cufon style="width: 127px; height: 23px;" alt="stumbleupon" class="cufon cufon-canvas"><canvas style="width: 141px; height: 27px; top: 0px; left: -2px;" height="27" width="141"></canvas><cufontext>stumbleupon</cufontext></cufon></a></li>
+							<li class="digg"><a href="#"><img src="style/images/icon-digg.png" alt="digg"><cufon style="width: 8px; height: 23px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 30px; height: 27px; top: 0px; left: -2px;" height="27" width="30"></canvas><cufontext> </cufontext></cufon><cufon style="width: 41px; height: 23px;" alt="digg" class="cufon cufon-canvas"><canvas style="width: 58px; height: 27px; top: 0px; left: -2px;" height="27" width="58"></canvas><cufontext>digg</cufontext></cufon></a></li>
+						</ul>
+					</div>
+			  </div>
+	
+<div style="display: none;" id="contact" class="page">
+					<div class="left">
+					<h3><cufon style="width: 52px; height: 22px;" alt="Drop " class="cufon cufon-canvas"><canvas style="width: 73px; height: 28px; top: 0px; left: -2px;" height="28" width="73"></canvas><cufontext>Drop </cufontext></cufon><cufon style="width: 39px; height: 22px;" alt="me " class="cufon cufon-canvas"><canvas style="width: 60px; height: 28px; top: 0px; left: -2px;" height="28" width="60"></canvas><cufontext>me </cufontext></cufon><cufon style="width: 21px; height: 22px;" alt="a " class="cufon cufon-canvas"><canvas style="width: 42px; height: 28px; top: 0px; left: -2px;" height="28" width="42"></canvas><cufontext>a </cufontext></cufon><cufon style="width: 44px; height: 22px;" alt="note" class="cufon cufon-canvas"><canvas style="width: 61px; height: 28px; top: 0px; left: -2px;" height="28" width="61"></canvas><cufontext>note</cufontext></cufon></h3>
+						<form method="post" action="about/contactengine.php">
+							<ul>
+								<li class="msgname"><label for="Name">Name: </label><input name="Name" id="Name" type="text"></li>
+								<li><label for="Email">E-mail: </label><input name="Email" id="Email" type="text"></li>
+								<li><label for="Message">Message: </label><textarea name="Message" id="Message" rows="2" cols="2"></textarea></li>
+								<li><input class="send" name="submit" value="Send" type="submit"></li>
+							</ul>
+						</form>
+					</div>
+					<div class="right">
+						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
+odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. 
+Omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+ totam rem aperiam.</p>
+						<p>Consequuntur magni dolores eos qui ratione mnis iste natus. 
+Voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p>
+						<div id="contactinfo"><p><cufon style="width: 77px; height: 21px;" alt="Address " class="cufon cufon-canvas"><canvas style="width: 97px; height: 25px; top: 0px; left: -2px;" height="25" width="97"></canvas><cufontext>Address </cufontext></cufon><cufon style="width: 45px; height: 21px;" alt="line " class="cufon cufon-canvas"><canvas style="width: 65px; height: 25px; top: 0px; left: -2px;" height="25" width="65"></canvas><cufontext>line </cufontext></cufon><cufon style="width: 17px; height: 21px;" alt="1, " class="cufon cufon-canvas"><canvas style="width: 37px; height: 25px; top: 0px; left: -2px;" height="25" width="37"></canvas><cufontext>1, </cufontext></cufon><cufon style="width: 45px; height: 21px;" alt="line " class="cufon cufon-canvas"><canvas style="width: 65px; height: 25px; top: 0px; left: -2px;" height="25" width="65"></canvas><cufontext>line </cufontext></cufon><cufon style="width: 24px; height: 21px;" alt="2, " class="cufon cufon-canvas"><canvas style="width: 43px; height: 25px; top: 0px; left: -2px;" height="25" width="43"></canvas><cufontext>2, </cufontext></cufon><cufon style="width: 49px; height: 21px;" alt="City, " class="cufon cufon-canvas"><canvas style="width: 69px; height: 25px; top: 0px; left: -2px;" height="25" width="69"></canvas><cufontext>City, </cufontext></cufon><cufon style="width: 31px; height: 21px;" alt="XY, " class="cufon cufon-canvas"><canvas style="width: 50px; height: 25px; top: 0px; left: -2px;" height="25" width="50"></canvas><cufontext>XY, </cufontext></cufon><cufon style="width: 52px; height: 21px;" alt="12345" class="cufon cufon-canvas"><canvas style="width: 67px; height: 25px; top: 0px; left: -2px;" height="25" width="67"></canvas><cufontext>12345</cufontext></cufon></p><cufon style="width: 5px; height: 12px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 16px; height: 15px; top: 0px; left: -1px;" height="15" width="16"></canvas><cufontext> </cufontext></cufon><p><cufon style="width: 128px; height: 21px;" alt="123-456-7890" class="cufon cufon-canvas"><canvas style="width: 140px; height: 25px; top: 0px; left: -2px;" height="25" width="140"></canvas><cufontext>123-456-7890</cufontext></cufon></p><cufon style="width: 5px; height: 12px;" alt=" " class="cufon cufon-canvas"><canvas style="width: 16px; height: 15px; top: 0px; left: -1px;" height="15" width="16"></canvas><cufontext> </cufontext></cufon><p><a href="#"><cufon style="width: 182px; height: 21px;" alt="info@company.com" class="cufon cufon-canvas"><canvas style="width: 188px; height: 25px; top: 0px; left: -2px;" height="25" width="188"></canvas><cufontext>info@company.com</cufontext></cufon></a></p></div>
+					</div>
+			  </div>
+</div>
+			<div id="footer">
+			  <p>Website Desinged by Omer Muneer.</p>
+</div>
+	</div>
+
+<map name="Map">
+  <area shape="circle" coords="151,48,48" href="../../../mywebsite/no..txt" target="_self">
+  <area shape="rect" coords="318,11,397,89" href="https://plus.google.com/116179758752529508695" target="_new">
+  <area shape="rect" coords="422,10,502,86" href="https://www.facebook.com/omermuneer.14" target="_new">
+</map>
+</body></html>

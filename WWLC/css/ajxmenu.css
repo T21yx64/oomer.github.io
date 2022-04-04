@@ -1,0 +1,27 @@
+/*
+ Ajatix Pure CSS Menu
+ Copyright (C) 2009-2012 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXMenuDQHAQYB {position:relative;z-index:100;width:100%;height:30px;}
+.AJXMenuDQHAQYB ul {position:relative;float:left;margin:0;padding:0;list-style-type:none;}
+.AJXMenuDQHAQYB li {float:left;margin:0;padding:0px 3px 0px 0;}
+.AJXMenuDQHAQYB li.tlast {padding-right:0px;}
+.AJXMenuDQHAQYB li:hover,.AJXMenuDQHAQYB li a:hover {position:relative;}
+.AJXMenuDQHAQYB a {display:block;float:left;height:30px;white-space:nowrap;padding:0 0 0 10px;font:12px Arial,Helvetica,sans-serif;line-height:30px;text-decoration:none;text-align:left;color:#ffffff;background:#217ba7 url(ajxmenu_files/top.gif) top left;}
+.AJXMenuDQHAQYB a b {display:block;padding:0 15px 0 0;background:url(ajxmenu_files/top.gif) top right;}
+.AJXMenuDQHAQYB li:hover a,.AJXMenuDQHAQYB a:hover {background:#40a9db url(ajxmenu_files/top.gif) bottom left;}
+.AJXMenuDQHAQYB li:hover a b,.AJXMenuDQHAQYB a:hover b {background:url(ajxmenu_files/top.gif) bottom right;}
+.AJXMenuDQHAQYB a.ajxsub {padding:0 0 0 11px;background:#217ba7 url(ajxmenu_files/top-sub.gif) top left;}
+.AJXMenuDQHAQYB a.ajxsub b {padding:0 25px 0 0;background:url(ajxmenu_files/top-sub.gif) top right;}
+.AJXMenuDQHAQYB li:hover a.ajxsub,.AJXMenuDQHAQYB a.ajxsub:hover {background:#40a9db url(ajxmenu_files/top-sub.gif) bottom left;}
+.AJXMenuDQHAQYB li:hover a.ajxsub b,.AJXMenuDQHAQYB a.ajxsub:hover b {background:url(ajxmenu_files/top-sub.gif) bottom right;}
+.AJXMenuDQHAQYB ul ul {position:absolute;left:-9999px;top:-9999px;width:171px;height:auto;background:#1f7099;}
+.AJXMenuDQHAQYB ul :hover ul {left:3px;top:30px;}
+.AJXMenuDQHAQYB li li {width:169px;padding:0 1px 1px 1px;}
+.AJXMenuDQHAQYB ul ul a,.AJXMenuDQHAQYB ul :hover ul a {float:none;margin:0;width:151px;height:24px;padding:0 8px 0 10px;font:12px Arial,Helvetica,sans-serif;line-height:24px;text-decoration:none;color:#436981;background:#efefef;}
+.AJXMenuDQHAQYB ul :hover ul .sfirst a {margin-top:1px;}
+.AJXMenuDQHAQYB ul ul :hover a,.AJXMenuDQHAQYB ul ul a:hover {font-weight:bold;color:#ffffff;background:#436a92;}
+.AJXMenuDQHAQYB img {position:fixed;left:0;top:0;width:0;height:0;z-index:-1;display:none;}
+.AJXMenuDQHAQYB li.tsub:hover ~ li img {width:100%;height:100%;display:block;}
+.AJXMenuDQHAQYB br {clear:both;height:0;font-size: 1px;line-height: 0px;}

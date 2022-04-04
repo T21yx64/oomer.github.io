@@ -1,0 +1,74 @@
+.wrapper{	width:97%;	float:none;}
+.demo { width:100%; float:right;}
+ /* CSS Document */
+body, ul, ol, p, li, hr {	margin:0px;	list-style:none;	padding-left: 0px;}
+body {	font:11px  Verdana, Geneva, sans-serif; line-height:1.5em; color:#252525;	background:#1F3E63 url(../images/bg.gif) left top repeat-x;}a {	color:#000;	text-align: center;}
+#layout {	width:812px;	text-align:justify;	line-height:20px;	margin-top: 0px;	margin-right: auto;	margin-bottom: 0px;
+margin-left: auto;	padding-top: 5px; }
+#bodybox {background:#fff;border:1px solid #cbcbcb;padding:11px;margin:4px 0px 10px 0px;font-family: Verdana, Geneva, sans-serif;
+text-align: left;}
+#banner {height:150px;background:url(../images/bannerback.jpg) left top no-repeat;border:1px solid #bbbbbb;	margin:0px 0px 11px 0px;}
+#bannerblock {	padding-top: 3px;	padding-right: 0px;	padding-bottom: 0px;	padding-left: 10px;}
+.bannerheading {color:#0f3450;display:block;font-family: Myriad Pro, Arial, Helvetica, sans-serif;font-size: 16px; font-weight:bold;
+padding-top:36px;width: 515px;}
+
+#welcomezone {width:582px;float:left;}
+#welcomezone1 {width:100%;	float:left; }
+#servicezone {width:193px;float:right; }
+#servicezone1 { width:193px; min-height:345px; float:right;background:#f2f2f2; text-align:center; border:1px solid #e1e0e0; } 
+.whitebox {	background:#f2f2f2;	border: #666 1px solid;	padding:2px;	margin-bottom:15px;}
+.graybox {	background:#f2f2f2; border:1px solid #e1e0e0;	padding-top: 15px;padding-right: 5px;	padding-bottom: 0px;	padding-left: 15px;}
+
+#row2container {
+	background:#fff;
+	padding-top: 10px;
+	text-align: center;
+}
+#row2zone {	width:800px; padding:0px 0px 5px 0px;margin:0px auto;}
+
+/*FBG- islam cutemedia cuber*/
+.FBG { background:#1F3E63 url(../images/bg.gif) left top repeat-x; margin:0; padding:0;}
+.FBG_resize { width:800px; margin:0 auto; padding:5px 0;}
+.FBG_resize ul { list-style:none; margin:0px auto; padding:0;}
+.FBG_resize li { padding:0; margin:0;}
+.FBG_resize li a { font: normal 10px Arial, Helvetica, sans-serif; color: #75BAFF; text-decoration:none; text-align:left;}
+.FBG_resize li a:hover { color:#fff;}
+.FBG_resize h2 { font: bold 12px  Verdana, Geneva, sans-serif; color:#fff; padding:5px; margin:0;}
+.FBG_resize .left { width:130px; float:left; margin:05px !important; margin:5px 5px 5px 5px; padding:5px;}
+/* END_bloga*/
+/*************footer**********/
+.copyright {
+	font-size:10px;
+	clear:both;
+	color: #3b6b82;
+	font-weight: bold;
+}
+.clear {clear:both;	}
+p.clear {clear:both;	}
+h1 {color:#0f3450;padding:6px 0px 6px 0px;	margin:0px;	font-family: Myriad Pro, Arial, Helvetica, sans-serif;font-size: 16px;font-weight:bold;	text-align: left;}
+h2 {font-size:12px;	font-weight:bold; }
+h3 {font-size:12px;	font-weight:bold;}
+h4 {font-size:12px;	font-weight:bold; }
+h5 {font-size:15px; font-weight:bold;padding:0px 0px 5px 0px;border-bottom:1px dotted #666;	margin:0px 0px 10px 0px;}
+h6 {font-size:16px;	font-weight:bold;	padding:0px 0px 5px 0px;margin:0px 0px 10px 0px;}
+
+.toptext { 	display:block; text-align: left; width:620px; margin-right:10px; font-family: Verdana, Geneva, sans-serif; font-size: 11px;
+line-height: 18px; }
+
+.img{ float:right; padding:0px 0px 0px 0px; vertical-align:bottom;} 
+
+.aroowsul {	width:auto;	font:bold 11px  Verdana, Geneva, sans-serif;	color:#00496C;	background:url(../images/disc.gif) 0px 10px no-repeat;
+text-decoration:none;	display:block;	height:15px;	padding:3px 0px 3px 16px;}
+.servicelink li a:hover {	color:#414141;	background:#e2e2e2 url(../images/disc.gif) 0px 10px no-repeat;}
+acronym .caps div {	float: left; height: 14px; 	width: 14px; margin-top: 3px;	margin-right: 4px; }
+.tablediv {	font-family: Verdana, Geneva, sans-serif;	font-size: 11px; padding-right: 40px; padding-left: 15px;}
+.graybox div a img {text-decoration: none; 	border-top-style: none;	border-right-style: none;	border-bottom-style: none;	border-left-style: none;}
+.demos {font-family: Verdana, Geneva, sans-serif;	font-size: 11px;	font-weight: bold;	color: #006595;	text-decoration: none;
+	padding-left: 3px;	text-align: left;}
+.demos a{ text-decoration:none;}
+.demored {font-family: Verdana, Geneva, sans-serif;	font-size: 11px;	font-weight: bold;	color: #A80B02;	text-decoration: none;
+	padding-left: 3px;	text-align: left;}
+.demored a{ text-decoration:none;}
+.width{ width:760px; background-image:url(../image/bg2.png);color:#F7F7F7; font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+.widths{ background-image:url(../image/bg2.png);color:#F7F7F7; font-family:Verdana, Geneva, sans-serif; font-size:11px;}
+.White {font-size:11px; color: #DBDBDB;}
